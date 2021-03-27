@@ -33,12 +33,12 @@
 
   item = [[ChecklistItem alloc] init];
   item.text = @"Brush My Teeth";
-  item.checked = YES;
+  item.checked = NO;
   [_items addObject:item];
 
   item = [[ChecklistItem alloc] init];
   item.text = @"Learn iOS Development";
-  item.checked = YES;
+  item.checked = NO;
   [_items addObject:item];
 
   item = [[ChecklistItem alloc] init];
@@ -48,7 +48,7 @@
 
   item = [[ChecklistItem alloc] init];
   item.text = @"Eat Ice Cream";
-  item.checked = YES;
+  item.checked = NO;
   [_items addObject:item];
 }
 
